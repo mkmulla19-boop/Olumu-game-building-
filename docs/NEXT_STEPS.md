@@ -1,19 +1,21 @@
-# Next Steps to Make Olomu Come Alive
+# Next Steps — Olomu Survival
 
-## Immediate (This Week)
-1. Download and import Kenney Nature Kit (GLB version).
-2. Download 1–2 free low-poly character models as temporary player + family.
-3. Create a simple `scenes/village/test_village.tscn` with trees, ground, a few huts/props, and the player.
-4. Make sure the player can walk around the village on Android (or with touch emulation).
+## Immediate Goal (Vertical Slice)
+Create a small but real playable version of Olomu village that includes the opening story and basic survival systems.
 
-## Short Term
-- Add basic dialogue system (Nathan Hoad Dialogue Manager recommended).
-- Block out the attack sequence with simple triggers.
-- Add placeholder sound (footsteps, ambient village).
+### Priority Order
+1. Solid third-person player + touch controls + camera
+2. Basic environment (ground, trees, simple buildings) using free low-poly assets
+3. Opening sequence (peaceful village → conflict starts → father tells player to run)
+4. Basic survival needs (Hunger / Thirst)
+5. Simple inventory + gathering
+6. Save / Load
+7. Very simple NPCs that walk and do basic activities
 
-## Later
-- Replace placeholder characters with better models.
-- Add the escape path and new community area.
-- Polish lighting and atmosphere.
+## Current Recommended Assets
+- Kenney Nature Kit (GLB) → trees, rocks, plants
+- Kenney Fantasy Town Kit or similar modular buildings
+- Free low-poly characters from Poly Pizza / Kenney / FreePixel as temporary placeholders
 
-**Rule:** One solid layer at a time. First make the village feel alive.
+## Rule
+Every system we build now must be able to stay in the final game.
