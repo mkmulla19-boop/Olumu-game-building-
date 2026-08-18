@@ -1,90 +1,55 @@
-# Olomu — Before the Invasion
+# Olomu Survival
 
-**Working Title:** Olomu Survival  
 **Engine:** Godot 4.7.1  
-**Platform Target:** Android-first (mobile)  
-**Genre:** Narrative 3D Survival / Emotional Journey  
-**Studio:** Mkmulla Game Studio
+**Platform:** Android-first (tested on Redmi Note 11 Pro)  
+**Genre:** 3D Third-person Survival / Adventure  
+**Studio:** Mkmulla Game Studio  
+**Control Style:** Westland Survival style (joystick + free camera rotation)
 
 ---
 
-## Story Core (Locked)
+## Story Core
 
-The boy starts in his village at dawn.
+The game begins in Olomu, a peaceful Urhobo community in Delta State, Nigeria.
 
-Suddenly another community attacks.  
-His father and mother fight the enemies.  
-His father tells him to run for safety.  
-Before he can fully escape, he witnesses the killing of his family.  
-Only then does he flee toward another community.
+A conflict suddenly erupts. The player’s father finds them and says:
 
-This is the emotional foundation of the game.
+> “Go. Don’t look back. Survive, and find your way home.”
 
-### Planned Story Beats
-1. Peaceful village start (family present)
-2. Attack begins
-3. Parents fighting
-4. Father’s order to run
-5. Family falls
-6. Escape sequence
-7. Arrival at new community (warmer, safer feeling)
+The player escapes into the wilderness. The real journey of survival, discovery, and returning home begins.
 
 ---
 
-## Current Project Status
+## Current Status (Ready for Assembly & Testing)
 
-- [x] Core story locked
-- [x] Basic Godot 4.7 project structure started
-- [x] Player controller (CharacterBody3D + SpringArm camera) in progress
-- [ ] Clean folder structure & proper Git setup
-- [ ] Mobile-friendly controls
-- [ ] First playable village scene
-- [ ] Dialogue system
-- [ ] 3D assets (character, village, props)
-- [ ] Escape sequence prototype
+### Fully prepared systems
+- Westland Survival style controls (virtual joystick + free camera look)
+- Hunger & Thirst
+- Inventory
+- Gatherable items
+- Simple wandering NPCs
+- Opening sequence
+- Save / Load
+- Pause menu
+- Mobile HUD (Jump, Interact, survival bars)
+- Full documentation and assembly checklist
 
----
+### What remains
+1. Assemble the test village scene in Godot (follow `docs/FINAL_ASSEMBLY_CHECKLIST.md`)
+2. Import free low-poly assets
+3. Export and test on Redmi Note 11 Pro
 
-## Project Structure (Target)
-
-```
-Olomu/
-├── assets/
-│   ├── models/          # .glb / .gltf characters, props, buildings
-│   ├── textures/
-│   ├── audio/
-│   └── ui/
-├── scenes/
-│   ├── player/
-│   ├── village/
-│   ├── escape/
-│   └── ui/
-├── scripts/
-│   ├── player/
-│   ├── systems/         # dialogue, save, etc.
-│   └── utils/
-├── resources/
-└── project.godot
-```
+**Only testing remains after assembly.**
 
 ---
 
-## Development Guidelines
-
-- Keep everything mobile-friendly (touch controls, performance)
-- Prefer low-poly / stylized art for Android performance
-- Build one solid layer at a time
-- Document important decisions in this README or Issues
-
----
-
-## Useful Resources
-
-- Third-person controllers: selgesel/godot4-third-person-controller, GDQuest demos
-- Dialogue: nathanhoad/godot_dialogue_manager
-- Mobile starters: lukky-nl/Pocket-Godot
+## Important Documents
+- `docs/FINAL_ASSEMBLY_CHECKLIST.md` ← Start here
+- `docs/GAME_VISION.md`
+- `docs/CONTROLS_WESTLAND_STYLE.md`
+- `docs/MOBILE_OPTIMIZATION.md`
+- `docs/READY_FOR_TEST.md`
 
 ---
 
-**Made with care by Mkmulla Game Studio**  
-"Just a curious young fellow trying to build a game from scratch."
+**Made with care by Mkmulla Game Studio**
